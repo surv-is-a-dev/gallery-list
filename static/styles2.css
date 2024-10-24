@@ -1,0 +1,7 @@
+span.dropdown-holder span.dropdown-open {
+  display: inherit;
+}
+
+span.dropdown-holder span.dropdown-closed {
+  display: none;
+}

@@ -1,0 +1,10 @@
+{
+  // Link to your gallery. (please make sure its HTTPS and ends with a /)
+  "link": "https://surv.is-a.dev/gallery/",
+  // The title of your gallery :3
+  "title": "Surv's gallery!",
+  // And your description
+  "description": "Wowie",
+  // Slug for thumbnails and other stuff
+  "slug": "surv",
+}

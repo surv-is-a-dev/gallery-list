@@ -1,0 +1,117 @@
+:root, body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-family: "Sofia Sans", Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color-scheme: dark;
+}
+div.fit {
+  max-width: 928px;
+  margin: 24px auto;
+}
+div.small-fit {
+  max-width: fit-content;
+  margin: 24px auto;
+}
+
+div.gallerys {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 16px -4px;
+}
+@media (max-width: 944px) {
+  div.gallerys {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 650px) {
+  div.gallerys {
+    grid-template-columns: 1fr;
+  }
+}
+
+span.description {
+  white-space-collapse: discard;
+  word-wrap: break-word;
+  font-size: medium;
+}
+div.gallery {
+  position: relative;
+  border: 2px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  margin: 4px;
+  overflow: hidden;
+  padding: 8px;
+}
+div.gallery div.thumbnail-container {
+  margin-bottom: 4px;
+}
+div.gallery img.thumbnail {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  aspect-ratio: 2/1;
+}
+div.gallery div.info-container {
+  border-top: 2px solid #cccccc;
+}
+div.gallery span.title {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+div.gallery span.description {
+  font-weight: 400;
+  width: 85%;
+}
+div.gallery a.link {
+  padding: 0.2rem;
+  background-color: rgb(255, 153, 0);
+  border-radius: 0.2rem;
+  font: inherit;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  pointer-events: auto;
+  border: none;
+  float: right;
+}
+
+p.smaller-infobox, span.smaller-infobox {
+  padding: 4px;
+  margin: 4px 0;
+  border-radius: 4px;
+  border: 2px solid;
+  background-color: rgba(0, 247, 255, 0.243);
+  border-color: rgba(0, 247, 255, 0.447);
+}
+div.infobox {
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 2px solid;
+  background-color: rgba(0, 247, 255, 0.243);
+  border-color: rgba(0, 247, 255, 0.447);
+}
+div.warning {
+  background-color: rgba(255, 0, 0, 0.245);
+  border-color: rgba(255, 0, 0, 0.446);
+}
+div.header span.title {
+  font-size: x-large;
+  font-weight: bolder;
+  padding-bottom: 2px;
+}
+div.header span.description {
+  font-weight: 600;
+}
+div.footer {
+  opacity: 0.8;
+  text-align: center;
+}

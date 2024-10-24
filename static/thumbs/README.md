@@ -1,0 +1,1 @@
+All images in this directory are CC-BY-2.0 no exceptions.

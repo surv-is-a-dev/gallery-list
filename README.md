@@ -1,2 +1,7 @@
-# gallery-list
-A site for all extension gallerys! (Please do contribute if you have one we don't have)
+# Gallery List
+
+This is a big list of extension gallerys for Scratch platforms.
+
+For the license of this code look at the LICENSE file.
+
+To contribute see CONTRIBUTING.md
