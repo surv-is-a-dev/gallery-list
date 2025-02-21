@@ -9,7 +9,7 @@
     if (!gallery.link) throw new Error('Invalid gallery URL!');
     gallery.link += `${(gallery.link.indexOf('?') > -1) ? '&' : '?'}ref=yri`;
     gallery.title ??= name;
-    gallery.$thumb = `static/thumbs/${gallery.slug || 'unknown'}.webp?v1`;
+    gallery.$thumb = `static/thumbs/${gallery.slug || 'unknown'}.webp?v2`;
     gallery.slug ??= name;
     gallery.description ??= 'A gallery, feel free to check it out!';
     gallery.$name = name;
