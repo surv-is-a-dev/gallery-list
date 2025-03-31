@@ -1,8 +1,8 @@
 {
   // Link to your gallery. (please make sure its HTTPS and ends with a /)
-  "link": "https://miyo.lol/gallery/",
+  "link": "https://gallery.miyo.lol/",
   // The title of your gallery :3
-  "title": "Surv's gallery!",
+  "title": "Miyo's gallery!",
   // And your description
   "description": "Wowie",
   // Slug for thumbnails and other stuff
